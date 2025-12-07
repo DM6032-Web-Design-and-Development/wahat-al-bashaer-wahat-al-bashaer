@@ -140,10 +140,12 @@ nav ul{list-style:none;
   padding: 10px; cursor: pointer;
 }
 
-
-#banner1 {
+#banner1 {width: 100% ! important; 
+          height: 350px ! important; 
+          object-fit: cover ! important; 
+          display:block ! important;
     margin-top: 60px;
-}
+           }
 
 footer { background: #800020; 
   color: white; 
