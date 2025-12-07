@@ -148,7 +148,7 @@ nav ul{list-style:none;
 }
 
 #banner1 {width: 100%; 
-          height: 350pxt; 
+          height: 350px; 
           object-fit: cover; 
           display:block;}
 
@@ -174,8 +174,11 @@ transform: scale (1.1);
              
              }
 
-#home.section {padding: 0 !important;
-    margin: 0 auto !important;    }
+#home.section {padding-top:80px;
+    margin: 0 auto;
+              }
+
+
 #banner1{transition: 0.5s;}
 #banner1:hover {transform: scale(1);}
 
