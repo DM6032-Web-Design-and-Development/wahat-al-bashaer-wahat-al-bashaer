@@ -95,6 +95,7 @@
     <tr>
       <th></th>
       <th>Juice</th>
+      <th id="juice-price-header">Price (BD)</th>
       <th>Price (BD)</th>
       <th></th>
     </tr>
@@ -122,6 +123,7 @@
     <tr>
       <th></th>
       <th>Pizza</th>
+      <th id="pizza-price-header">Price (BD)</th>
       <th>Price (BD)</th>
       <th></th>
     </tr>
@@ -148,6 +150,7 @@
     <tr>
       <th></th>
       <th>Item</th>
+       <th id="snacks-price-header">Price (BD)</th>
       <th>Price (BD)</th>
       <th></th>
     </tr>
@@ -183,6 +186,7 @@
     <tr>
       <th></th>
       <th>Item</th>
+      <th id="stationary-price-header">Price (BD)</th>
       <th>Price (BD)</th>
       <th></th>
     </tr>
@@ -212,6 +216,18 @@
 
  <script>
 document.getElementById("sandwich-price-header").onclick = function() {
+    alert("All prices are subject to VAT");
+};
+   document.getElementById("juice-price-header").onclick = function() {
+    alert("All prices are subject to VAT");
+};
+document.getElementById("pizza-price-header").onclick = function() {
+    alert("All prices are subject to VAT");
+};
+document.getElementById("snacks-price-header").onclick = function() {
+    alert("All prices are subject to VAT");
+};
+document.getElementById("stationary-price-header").onclick = function() {
     alert("All prices are subject to VAT");
 };
 </script>
