@@ -8,14 +8,14 @@ nav{
   position:fixed;
   top:0;
   width:100%;
-  background: #fffcef;;
+  background: #fffcef;
   z-index:10000;
   padding:20px 0;}
 
 nav a{ font-size: 22px;
   font-weight: bold;
       padding: 8px 18px;
-       background:#ffffffd9;
+       background: #fffcef;
        border-radius: 12px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.15);      
 }
