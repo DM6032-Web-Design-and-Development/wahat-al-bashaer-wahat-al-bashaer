@@ -155,8 +155,7 @@ nav ul{list-style:none;
 }
 
 #banner1 {width: 100% ! important; 
-          height: 350px ! important; 
-          object-fit: cover ! important; 
+          height: auto ! important;
           display:block ! important;}
 
 footer { background: #800020; 
@@ -181,8 +180,8 @@ transform: scale (1.1);
              
              }
 
-#home.section {padding-top:80px;
-    margin: 0 auto;
+#home.section { padding: 0;
+  
               }
 
 
@@ -196,4 +195,5 @@ transform: scale (1.1);
    color: #800020;
               margin-top: 50px;
   }
-#home {margin-top: 150px;}
+#home {margin: 0;
+      padding: 0;}
